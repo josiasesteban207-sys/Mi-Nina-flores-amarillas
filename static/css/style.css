@@ -2020,19 +2020,20 @@ body {
     cursor: pointer;
     display: inline-block;
 }
- 
-@media (max-width: 650px) {
-    html,
-    body {
-        height: auto;
-        min-height: 100%;
-        overflow-x: hidden;
-        overflow-y: auto;
-    }
+html {
+    overflow-y: scroll !important;
+}
 
-    .letter-page {
-        min-height: 100vh;
-        height: auto;
-        overflow: visible;
-    }
+body {
+    height: auto !important;
+    min-height: 100vh !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+}
+
+.letter-page {
+    width: 100%;
+    min-height: 100vh !important;
+    height: auto !important;
+    overflow: visible !important;
 }
