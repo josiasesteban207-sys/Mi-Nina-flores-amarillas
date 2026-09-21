@@ -186,6 +186,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 });
+const DEFAULTS = {
+    musica: "assets/musica1.mp3"
+};
+const CONFIG=(window.DEDICA&&window.DEDICA.merge)?window.DEDICA.merge(DEFAULTS,window.DEDICA.config):DEFAULTS;
 const audio = document.getElementById('audio');
 const startScreen = document.getElementById('start-screen');
 let audioStarted = false;
