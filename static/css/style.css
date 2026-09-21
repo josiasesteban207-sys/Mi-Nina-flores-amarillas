@@ -847,7 +847,9 @@ body {
 .letter-header .divider span:last-child {
   font-size: 10px;
 }
-
+.letter-header .divider1 span:first-child {
+  font-size: 10px;
+}
 
 .letter-header .divider span:nth-child(2) {
   font-size: 18px;
