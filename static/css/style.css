@@ -615,38 +615,36 @@ body {
 /* ---------- PAGINA ---------- */
 
 .letter-page {
-  position: relative;
+    position: relative;
+    width: 100%;
+    min-height: 150vh !important;
+    height: auto !important;
 
-  min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 
-  display: flex;
+    padding: 60px 20px;
 
-  align-items: center;
+    overflow: visible !important;
 
-  justify-content: center;
-
-  padding: 60px 20px;
-
-  
-    overflow: visible;
-
-  background:
-    radial-gradient(
-      circle at 50% 10%,
-      rgba(255, 232, 106, .42),
-      transparent 30%
-    ),
-    radial-gradient(
-      circle at 10% 80%,
-      rgba(255, 210, 55, .12),
-      transparent 30%
-    ),
-    linear-gradient(
-      135deg,
-      #fffef8,
-      #fff8dd,
-      #fff0bd
-    );
+    background:
+        radial-gradient(
+            circle at 50% 10%,
+            rgba(255, 232, 106, .42),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 10% 80%,
+            rgba(255, 210, 55, .12),
+            transparent 30%
+        ),
+        linear-gradient(
+            135deg,
+            #fffef8,
+            #fff8dd,
+            #fff0bd
+        );
 }
 
 
