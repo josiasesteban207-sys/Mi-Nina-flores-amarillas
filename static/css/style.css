@@ -2026,7 +2026,15 @@ body {
      desalineando el emoji y el texto de "Toca para iniciar" del centro real
      de la pantalla. */
   *{box-sizing:border-box;}
-  html, body { margin:0; height:100%; background:#000; overflow:hidden; -webkit-user-select:none; user-select:none; -webkit-tap-highlight-color:transparent; }
+html, body {
+    margin: 0;
+    height: 100%;
+    background: #000;
+    overflow: hidden;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
   canvas { display:block; }
 
   #main-title{
