@@ -627,7 +627,8 @@ body {
 
   padding: 60px 20px;
 
-  overflow: hidden;
+  
+    overflow: visible;
 
   background:
     radial-gradient(
@@ -2077,3 +2078,18 @@ html, body {
   @media (prefers-reduced-motion:reduce){
     #start-heart,#start-text{animation:none;}
   }
+@media (max-width: 650px) {
+    html,
+    body {
+        height: auto;
+        min-height: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .letter-page {
+        min-height: 100vh;
+        height: auto;
+        overflow: visible;
+    }
+}
